@@ -93,6 +93,6 @@
 
 	al_denteStyle.prototype = _.extend({}, new blink.theme.styles.basic(), al_denteStyle.prototype);
 
-	blink.theme.styles.poptropica = al_denteStyle;
+	blink.theme.styles.al_dente = al_denteStyle;
 
 })( blink );
