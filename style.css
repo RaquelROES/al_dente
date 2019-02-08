@@ -688,3 +688,7 @@ body.content_type_clase_al_dente #actividad .content .fillblanks-draggable
 	height: 100px !important;
 	padding: 0;
 }
+
+.nota-budget span {
+    padding: 2px 46px 6px 10px;
+}
