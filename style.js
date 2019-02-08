@@ -7,7 +7,7 @@
 		page = blink.currentPage;
 
 	al_denteStyle.prototype = {
-		bodyClassName: 'content_type_clase_al_dente',
+		bodyClassName: 'content_type_clase_poptropica',
 		ckEditorStyles: {
 			name: 'al_dente',
 			styles: [
