@@ -9,7 +9,7 @@
 	al_denteStyle.prototype = {
 		bodyClassName: 'content_type_clase_poptropica',
 		ckEditorStyles: {
-			name: 'al_dente',
+			name: 'poptropica',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
@@ -22,7 +22,13 @@
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
-				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } }
+				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } },
+
+				{ name: 'Icono Draw', element: 'span', attributes: { 'class': 'icon icon-draw' } },
+				{ name: 'Icono Write', element: 'span', attributes: { 'class': 'icon icon-write' } },
+				{ name: 'Icono Speaking', element: 'span', attributes: { 'class': 'icon icon-speaking' } },
+				{ name: 'Icono Reading', element: 'span', attributes: { 'class': 'icon icon-reading' } },
+				{ name: 'Icono Star', element: 'span', attributes: { 'class': 'icon icon-star' } }
 			]
 		},
 
@@ -87,6 +93,6 @@
 
 	al_denteStyle.prototype = _.extend({}, new blink.theme.styles.basic(), al_denteStyle.prototype);
 
-	blink.theme.styles.al_dente = al_denteStyle;
+	blink.theme.styles.poptropica = al_denteStyle;
 
 })( blink );
