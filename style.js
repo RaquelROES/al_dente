@@ -9,7 +9,7 @@
 	al_denteStyle.prototype = {
 		bodyClassName: 'content_type_clase_poptropica',
 		ckEditorStyles: {
-			name: 'poptropica',
+			name: 'al_dente',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
