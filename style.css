@@ -266,12 +266,12 @@
 	.slider-indicators li:hover,
 	.edit .slider-indicators .concat.active,
 	.slider-indicators .active {
-	    background-color: #007FA3;
+	    background-color: #8b9c23;
 	    color: #ffffff;
 	}
 
 	.edit .slider-indicators .concat.active:before {
- 		background-color: #007FA3;
+ 		background-color: #8b9c23;
 	}
 
 	#bottom-navigator {
