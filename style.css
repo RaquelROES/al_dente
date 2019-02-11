@@ -434,11 +434,6 @@
 
 .content .bck-ol2 li:before,
 .cke_contents .bck-ol2 li:before {
-	-webkit-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    		box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    border: 1px solid #109FC5;
-    background: #fff;
     color: #000;
 }
 
