@@ -475,9 +475,10 @@
 
 .bck-box {
 	margin: 10px;
-	border: 2px solid #8b9c23;
-	background: #fff;
-	padding: 6px;
+    border: 2px solid #8b9c23;
+    border-radius: 0px;
+    background: #fff;
+    padding: 6px 20px;
 }
 
 .bck-box .bck-content p:last-child {
@@ -498,7 +499,7 @@
 /* Caja 3 */
 .bck-box.bck-box3 {
 	margin: 10px;
-	border: 2px solid #444;
+	border: 2px solid #ccc;
 	background: #fff;
 	padding: 6px;
 }
