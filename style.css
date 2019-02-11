@@ -453,6 +453,11 @@
 
 /*LISTA ORDENADA 2*/
 
+.content .bck-ol2 li,
+.cke_contents .bck-ol2 li {
+	font-weight: normal;
+	}
+
 .content .bck-ol2 li:before,
 .cke_contents .bck-ol2 li:before {
 	-webkit-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
@@ -464,6 +469,12 @@
 }
 
 /*LISTA ORDENADA 3*/
+
+.content .bck-ol3 li,
+.cke_contents .bck-ol3 li {
+	font-weight: normal;
+	}
+
 
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
@@ -478,6 +489,11 @@
 }
 
 /*LISTA ORDENADA 4*/
+
+.content .bck-ol4 li,
+.cke_contents .bck-ol4 li {
+	font-weight: normal;
+	}
 
 .content .bck-ol4 li:before,
 .cke_contents .bck-ol4 li:before {
